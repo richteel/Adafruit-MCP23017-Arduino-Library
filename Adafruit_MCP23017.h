@@ -63,6 +63,7 @@ private:
                          uint8_t portBaddr);
 };
 
+// If adafruit picks this up, it is recommended to change from MCP23017_<port/register) to MCP23X17_<port/register)
 #define MCP23017_ADDRESS 0x20 //!< MCP23017 Address
 
 // ports
